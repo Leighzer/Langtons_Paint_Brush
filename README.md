@@ -10,7 +10,7 @@ Controls:
 
 a - this button increases the amount of iterations are run before the next draw by 10
 
-b - this button decrease the amount of iterations are run before the next draw by 10
+b - this button decreases the amount of iterations are run before the next draw by 10
 
 z - this button increases the amount of iterations are run before the next draw by 10000
 
