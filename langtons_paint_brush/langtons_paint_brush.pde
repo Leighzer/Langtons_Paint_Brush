@@ -58,7 +58,7 @@ public void setup(){
   for(int i = 0; i < grid.length; i++){
     for(int j = 0; j < grid[i].length; j++){
       float randomFloat = random(1);
-      int randomNumber = (randomFloat > 0) ? 0 : 1; 
+      int randomNumber = (randomFloat > 0.5) ? 0 : 1; 
       grid[i][j] = randomNumber;
       if(grid[i][j] == 1){
         drawCell(i,j,255,255,255);//draw the cell white
